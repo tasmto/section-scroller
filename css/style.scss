@@ -47,7 +47,7 @@ main {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  background: rgba(218, 249, 255, 0.4);
+  background: #ffffff;
   section {
     width: 100%;
     min-height: 85vh;
@@ -57,7 +57,20 @@ main {
     opacity: 1;
     transition: transform 450ms ease, opacity 800ms ease;
     transition-delay: 300ms;
+
     &:nth-child(1) {
+      background-image: url("../images/hero.jpg");
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-attachment: scroll;
+      background-size: cover;
+      min-height: 75vh;
+      padding: 2% 5%;
+      color: #ffffff;
+      margin-bottom: 50px;
+    }
+
+    &:nth-child(2) {
       background: rgb(232, 213, 181);
       min-height: 95vh;
 
@@ -66,12 +79,12 @@ main {
         width: 300px;
       }
     }
-    &:nth-child(2) {
+    &:nth-child(3) {
       background: #d8bfc9;
       min-height: 75vh;
     }
 
-    &:nth-child(3), &:nth-child(4) {
+    &:nth-child(4), &:nth-child(5) {
         background: #d1c4ec;
         padding: 2%;
         min-height: 60vh;
@@ -80,10 +93,10 @@ main {
             width: 450px;
         }
     }
-    &:nth-child(4) {
+    &:nth-child(5) {
         background: #e1c4ec;
     }
-    &:nth-child(5) {
+    &:nth-child(6) {
         background: #eccddf;
         padding: 5%;
         .image-container {

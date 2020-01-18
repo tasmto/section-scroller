@@ -52,7 +52,7 @@ main {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  background: rgba(218, 249, 255, 0.4);
+  background: #ffffff;
 }
 
 main section {
@@ -73,41 +73,53 @@ main section {
 }
 
 main section:nth-child(1) {
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: 75vh;
+  padding: 2% 5%;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+main section:nth-child(2) {
   background: #e8d5b5;
   min-height: 95vh;
 }
 
-main section:nth-child(1) div > div > div:nth-child(1) {
+main section:nth-child(2) div > div > div:nth-child(1) {
   height: 300px;
   width: 300px;
 }
 
-main section:nth-child(2) {
+main section:nth-child(3) {
   background: #d8bfc9;
   min-height: 75vh;
 }
 
-main section:nth-child(3), main section:nth-child(4) {
+main section:nth-child(4), main section:nth-child(5) {
   background: #d1c4ec;
   padding: 2%;
   min-height: 60vh;
 }
 
-main section:nth-child(3) .form-container > iframe, main section:nth-child(4) .form-container > iframe {
+main section:nth-child(4) .form-container > iframe, main section:nth-child(5) .form-container > iframe {
   height: 400px;
   width: 450px;
 }
 
-main section:nth-child(4) {
+main section:nth-child(5) {
   background: #e1c4ec;
 }
 
-main section:nth-child(5) {
+main section:nth-child(6) {
   background: #eccddf;
   padding: 5%;
 }
 
-main section:nth-child(5) .image-container {
+main section:nth-child(6) .image-container {
   height: 300px;
   width: 300px;
 }
