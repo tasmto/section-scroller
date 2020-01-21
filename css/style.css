@@ -120,10 +120,6 @@ main section:nth-child(5) {
   min-height: 75vh;
 }
 
-main section:nth-child(5) .image-container {
-  height: 215px;
-  width: 460px;
-}
 
 main section:nth-child(6) {
   background: #c7d2d6;
